@@ -1,9 +1,9 @@
 | Targets Soportados | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C5 | ESP32-C6 | ESP32-C61 | ESP32-H2 | ESP32-H21 | ESP32-H4 | ESP32-P4 | ESP32-S2 | ESP32-S3 | Linux |
 | ----------------- | ----- | -------- | -------- | -------- | -------- | --------- | -------- | --------- | -------- | -------- | -------- | -------- | ----- |
 
-# Ejemplo: Hola Mundo
+# Proyecto: Escáner Bluetooth
 
-Este proyecto es un ejemplo básico que imprime "Hola Mundo" utilizando FreeRTOS.
+Este proyecto implementa un escáner Bluetooth utilizando ESP-IDF. Permite detectar dispositivos Bluetooth cercanos y mostrar información relevante sobre ellos.
 
 ## Contenido del proyecto
 
@@ -18,17 +18,17 @@ El proyecto contiene los siguientes archivos principales:
 └── README.md                  Este archivo
 ```
 
-## Cómo usar este ejemplo
+## Cómo usar este proyecto
 
-1. Asegúrate de tener configurado el entorno de desarrollo ESP-IDF.
+1. Configura el entorno de desarrollo ESP-IDF.
 2. Compila y sube el proyecto a tu placa de desarrollo.
-3. Abre el monitor serie para ver el mensaje "Hola Mundo".
+3. Abre el monitor serie para ver los dispositivos Bluetooth detectados.
 
 ## Solución de problemas
 
-- **Error al subir el programa:**
-  - Verifica las conexiones de hardware.
-  - Reduce la velocidad de baudios en la configuración si es necesario.
+- **No se detectan dispositivos Bluetooth:**
+  - Asegúrate de que el Bluetooth esté habilitado en tu placa.
+  - Verifica que haya dispositivos Bluetooth cercanos.
 
 ## Más información
 
