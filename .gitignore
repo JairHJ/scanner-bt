@@ -1,0 +1,38 @@
+# ESP-IDF build artifacts
+build/
+bootloader/
+bootloader-prefix/
+partition_table/
+
+# SDK config backups
+sdkconfig.old
+sdkconfig.ci.old
+
+# Compilation database (regenerate locally if needed)
+compile_commands.json
+
+# Python caches
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Flashing/generated args
+flash_*_args
+*flash_args
+flasher_args.json
+
+# Binaries / firmware outputs
+*.bin
+*.elf
+*.map
+
+# GDB helper artifacts
+.gdbinit*
+
+# Misc
+*.tmp
